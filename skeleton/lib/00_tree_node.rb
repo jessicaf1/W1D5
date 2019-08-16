@@ -50,6 +50,7 @@ class PolyTreeNode
       return el if el.value == target_value
       el.children.each { |child| queue.push(child) }
     end
+  
     nil
   end
 
